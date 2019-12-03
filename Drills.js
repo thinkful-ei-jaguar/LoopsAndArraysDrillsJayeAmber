@@ -1,5 +1,43 @@
 'use strict'
 
+function average(myArray){
+  let num = 0;
+  for (let i=0; i < myArray.length;i++) num=num+myArray[i];
+  let divide= num/myArray.length;
+  return(divide);
+}
+
+function average2(myArray2){
+  let sum = 0;
+  myArray2.forEach(element => sum+= element);
+  let divide = sum/myArray2.length;
+  return(divide);
+}
+console.log(average2 ([3,4,5,67]));
+console.log(average([3,4,5,67]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function max (arr) {
   let i = 1;
   let maxNum = arr[0];
